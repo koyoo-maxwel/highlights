@@ -1,18 +1,15 @@
 {% extends 'base.html' %} 
 {% block content %}
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
+    
             <h1> {{name}} </h1>
-        </div>
-    </div>
     <div class="row">
         {% for article in news_source %}
-        <div class="col-md-12">
+        <div class="col-md-3">
             <a href={{article.url}} target="_blank">
-                <img src={{article.urlToImage}} alt="">
+                <img src={{article.urlToImage}} alt="" height="200px" width="300px">
             </a>
-            <div class="col-md-12">
+            <div class="">
                 <h4 class="text-bold"> {{article.title}} </h4>
                 <p class="small">- {{article.author}} </p>
                 <p class="small">Posted on {{article.publishedAt}}</p>
