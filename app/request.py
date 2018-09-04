@@ -48,10 +48,8 @@ def process_results(sources_list):
         url = source.get('url')
         category = source.get('category')
         country = source.get('country')
-
-        if url:
-            source_object = Sources(id,name,description,url,category,country)
-            sources_results.append(source_object)
+        source_object = Sources(id,name,description,url,category,country)
+        sources_results.append(source_object)
     
     return sources_results
     
@@ -85,11 +83,9 @@ def process_articles(my_articles):
         description = article.get('description')
         url = article.get('url')
         urlToImage = article.get('urlToImage')
-       
-        
-        if urlToImage:
-            article_source_object = Articles(author,title,description,url,urlToImage)
-            article_location_list.append(article_source_object)
+      
+        article_source_object = Articles(author,title,description,url,urlToImage)
+        article_location_list.append(article_source_object)
         
     return article_location_list
 

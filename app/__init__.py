@@ -21,4 +21,5 @@ def create_app(config_name):
     from .request import configure_request
     configure_request(app)
 
+
     return app
