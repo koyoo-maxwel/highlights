@@ -15,7 +15,7 @@ Click [here](https://newsinformative.herokuapp.com/) to see the live site.
     - Edit the start.sh file with your api key from the newsapi.org website
     - Install python 3.6
     - Run chmod a+x start.py
-    - Run ./start.py
+    - Run ./start.sh
 
 ## Known bugs
 No known errors if found lease contact me on github [here](koyoo-maxwel)
