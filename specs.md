@@ -1,4 +1,4 @@
-## Specifications
+# Specifications
 | Behavior            | Input                         | Output                        | 
 | ------------------- | ----------------------------- | ----------------------------- |
 | View Business sources | Click on the `BUSINESS` button | Scrolls the page to the `BUSINESS` section |
