@@ -11,6 +11,7 @@ def setUp(self):
     '''
     self.new_source = Sources('news','the star','latest updates',
     'https://google.com','politics','kenya')
+    
 
 def test_instance(self):
     self.assertTrue(isinstance(self.new_source,Sources))
