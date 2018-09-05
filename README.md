@@ -1,10 +1,10 @@
-#Title  - Newshighlits
-### sep, 2018
+# Title  - Newshighlits
+## sep, 2018
 #### By [koyoo maxwel](https://github.com/koyoo-maxwel)
 
 ## Description
 The app allows users to fetch data from different categories  and read More on a specific source on the site
-Click [here](https://highlights.herokuapp.com/) to see the live site.
+Click [here](https://newsinformative.herokuapp.com/) to see the live site.
 
 
 ## Prerequiites
