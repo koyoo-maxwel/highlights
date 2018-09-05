@@ -1,3 +1,6 @@
 body{
     background-color: blueviolet;
 }
+.container{
+    flex: 0fr;
+}
