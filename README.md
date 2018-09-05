@@ -30,4 +30,4 @@ No known errors if found lease contact me on github [here](koyoo-maxwel)
 Contact maxwell@juantechno.com.
 
 ### License
-Copyright (c) koyoo-maxwel
+[Copyright](LICENSE)
